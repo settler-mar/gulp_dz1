@@ -12,10 +12,10 @@ Getting started:
 4. npm install
 6. run "gulp" command to start
 
->Добавленно
-sprite:png - создает справйт из PNG
-fonts - копирует шрифты на продакшн
+Добавленно
+1. sprite:png - создает справйт из PNG
+2. fonts - копирует шрифты на продакшн
 
->конфертора шрифтов
+Инсталятор шрифтов
 В Ununtu выполнить команду
-sudo apt-get install fontforge
+>sudo apt-get install fontforge
