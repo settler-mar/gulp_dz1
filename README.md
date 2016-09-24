@@ -15,3 +15,7 @@ Getting started:
 >Добавленно
 sprite:png - создает справйт из PNG
 fonts - копирует шрифты на продакшн
+
+>конфертора шрифтов
+В Ununtu выполнить команду
+sudo apt-get install fontforge
