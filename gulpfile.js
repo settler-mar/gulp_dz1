@@ -19,10 +19,6 @@ $.path.task.forEach(function(taskPath) {
   require(taskPath)();
 });
 
-$.gulp.task('notifier',function() {
-  $.gp.notify.onError({ title: 'Style' });
-  return
-});
 $.gulp.task('default', $.gulp.series(
   'clean',
   $.gulp.parallel(
