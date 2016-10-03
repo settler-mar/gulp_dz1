@@ -13,6 +13,7 @@ Getting started:
 6. run "gulp" command to start
 
 Добавленно
+
 1. sprite:png - создает справйт из PNG
 2. fonts - копирует шрифты на продакшн
 

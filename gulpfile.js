@@ -1,5 +1,4 @@
 'use strict';
-var fontgen = require('./node_modules/gulp-fontgen');
 global.$ = {
   package: require('./package.json'),
   config: require('./gulp/config'),
@@ -30,7 +29,13 @@ $.gulp.task('default', $.gulp.series(
     'css:foundation',
     'sprite:svg',
     'sprite:png',
-    'fonts'
+    'copy:video',
+    $.gulp.series(
+        'fonts',
+        'fonts_css:concat',
+        'fonts_css:clear'
+    ),
+    'copy:favicon'
   ),
   $.gulp.parallel(
     'watch',
